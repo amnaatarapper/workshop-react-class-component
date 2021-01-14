@@ -1,8 +1,6 @@
-import Header from "./components/Header";
-import ImagesContainer from "./components/ImagesContainer";
-import Footer from "./components/Footer";
+import { Header, ImagesContainer, Footer } from "./components";
 
-function App() {
+export default function App() {
   return (
     <div id="wrapper">
       <Header />
@@ -11,5 +9,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
