@@ -1,10 +1,11 @@
 const Header = () => {
+  const callback = () => {
+    console.log("Header clicked!!!!!!!!!");
+  };
   return (
     <header id="header">
-      <h1>
-        <a href="index.html">
-          <strong>Multiverse</strong> by HTML5 UP
-        </a>
+      <h1 onClick={callback}>
+        <strong>Multiverse</strong> by HTML5 UP
       </h1>
       <nav>
         <ul>
